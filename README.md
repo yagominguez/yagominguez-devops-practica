@@ -6,7 +6,7 @@ Una vez construida la imagen, la aplicación puede ejecutarse con el comando: do
 
 El sistema simula una tienda online completa que incorpora las siguientes funcionalidades: Sistema de gestión de usuarios que diferencia entre clientes y administradores, Inventario de productos con categorías específicas para electrónica y ropa, Sistema completo de procesamiento de pedidos y un Mecanismo de actualización automática del stock tras cada compra. 
 
-El proyecto está estructurado en los siguientes componentes principales: El archivo main.py sirve como punto de entrada principal de la aplicación, El directorio Models/ contiene las clases fundamentales: Usuario, Producto y Pedido, El directorio Services/ alberga la lógica principal del negocio, incluyendo la clase TiendaService. 
+El proyecto está estructurado dentro de una carpeta src/, con los siguientes componentes principales: El archivo main.py sirve como punto de entrada principal de la aplicación, El directorio Models/ contiene las clases fundamentales: Usuario, Producto y Pedido, El directorio Services/ alberga la lógica principal del negocio, incluyendo la clase TiendaService. 
 
 La aplicación incluye los siguientes archivos de configuración:
 Dockerfile para la contenerización de la aplicación
